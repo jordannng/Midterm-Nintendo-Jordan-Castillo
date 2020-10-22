@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE42F2C5254229F500BD77DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42F2C4254229F500BD77DC /* AppDelegate.swift */; };
+		EE42F2C7254229F500BD77DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42F2C6254229F500BD77DC /* SceneDelegate.swift */; };
+		EE42F2C9254229F500BD77DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42F2C8254229F500BD77DC /* ViewController.swift */; };
+		EE42F2CC254229F500BD77DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE42F2CA254229F500BD77DC /* Main.storyboard */; };
+		EE42F2CE254229F600BD77DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE42F2CD254229F600BD77DC /* Assets.xcassets */; };
+		EE42F2D1254229F600BD77DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE42F2CF254229F600BD77DC /* LaunchScreen.storyboard */; };
+		EE42F2DC254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42F2DB254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloTests.swift */; };
+		EE42F2E7254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42F2E6254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE42F2D8254229F600BD77DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE42F2B9254229F500BD77DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE42F2C0254229F500BD77DC;
+			remoteInfo = "Midterm-Nintendo-Jordan-Castillo";
+		};
+		EE42F2E3254229F600BD77DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE42F2B9254229F500BD77DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE42F2C0254229F500BD77DC;
+			remoteInfo = "Midterm-Nintendo-Jordan-Castillo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE42F2C1254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm-Nintendo-Jordan-Castillo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42F2C4254229F500BD77DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE42F2C6254229F500BD77DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE42F2C8254229F500BD77DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE42F2CB254229F500BD77DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE42F2CD254229F600BD77DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE42F2D0254229F600BD77DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE42F2D2254229F600BD77DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE42F2D7254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm-Nintendo-Jordan-CastilloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42F2DB254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Nintendo_Jordan_CastilloTests.swift; sourceTree = "<group>"; };
+		EE42F2DD254229F600BD77DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE42F2E2254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm-Nintendo-Jordan-CastilloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42F2E6254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Nintendo_Jordan_CastilloUITests.swift; sourceTree = "<group>"; };
+		EE42F2E8254229F600BD77DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE42F2BE254229F500BD77DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2D4254229F600BD77DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2DF254229F600BD77DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE42F2B8254229F500BD77DC = {
+			isa = PBXGroup;
+			children = (
+				EE42F2C3254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */,
+				EE42F2DA254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests */,
+				EE42F2E5254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests */,
+				EE42F2C2254229F500BD77DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE42F2C2254229F500BD77DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE42F2C1254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo.app */,
+				EE42F2D7254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests.xctest */,
+				EE42F2E2254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE42F2C3254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */ = {
+			isa = PBXGroup;
+			children = (
+				EE42F2C4254229F500BD77DC /* AppDelegate.swift */,
+				EE42F2C6254229F500BD77DC /* SceneDelegate.swift */,
+				EE42F2C8254229F500BD77DC /* ViewController.swift */,
+				EE42F2CA254229F500BD77DC /* Main.storyboard */,
+				EE42F2CD254229F600BD77DC /* Assets.xcassets */,
+				EE42F2CF254229F600BD77DC /* LaunchScreen.storyboard */,
+				EE42F2D2254229F600BD77DC /* Info.plist */,
+			);
+			path = "Midterm-Nintendo-Jordan-Castillo";
+			sourceTree = "<group>";
+		};
+		EE42F2DA254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE42F2DB254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloTests.swift */,
+				EE42F2DD254229F600BD77DC /* Info.plist */,
+			);
+			path = "Midterm-Nintendo-Jordan-CastilloTests";
+			sourceTree = "<group>";
+		};
+		EE42F2E5254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE42F2E6254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloUITests.swift */,
+				EE42F2E8254229F600BD77DC /* Info.plist */,
+			);
+			path = "Midterm-Nintendo-Jordan-CastilloUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE42F2C0254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42F2EB254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-Castillo" */;
+			buildPhases = (
+				EE42F2BD254229F500BD77DC /* Sources */,
+				EE42F2BE254229F500BD77DC /* Frameworks */,
+				EE42F2BF254229F500BD77DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midterm-Nintendo-Jordan-Castillo";
+			productName = "Midterm-Nintendo-Jordan-Castillo";
+			productReference = EE42F2C1254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE42F2D6254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42F2EE254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-CastilloTests" */;
+			buildPhases = (
+				EE42F2D3254229F600BD77DC /* Sources */,
+				EE42F2D4254229F600BD77DC /* Frameworks */,
+				EE42F2D5254229F600BD77DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE42F2D9254229F600BD77DC /* PBXTargetDependency */,
+			);
+			name = "Midterm-Nintendo-Jordan-CastilloTests";
+			productName = "Midterm-Nintendo-Jordan-CastilloTests";
+			productReference = EE42F2D7254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE42F2E1254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42F2F1254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-CastilloUITests" */;
+			buildPhases = (
+				EE42F2DE254229F600BD77DC /* Sources */,
+				EE42F2DF254229F600BD77DC /* Frameworks */,
+				EE42F2E0254229F600BD77DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE42F2E4254229F600BD77DC /* PBXTargetDependency */,
+			);
+			name = "Midterm-Nintendo-Jordan-CastilloUITests";
+			productName = "Midterm-Nintendo-Jordan-CastilloUITests";
+			productReference = EE42F2E2254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE42F2B9254229F500BD77DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EE42F2C0254229F500BD77DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					EE42F2D6254229F600BD77DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EE42F2C0254229F500BD77DC;
+					};
+					EE42F2E1254229F600BD77DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EE42F2C0254229F500BD77DC;
+					};
+				};
+			};
+			buildConfigurationList = EE42F2BC254229F500BD77DC /* Build configuration list for PBXProject "Midterm-Nintendo-Jordan-Castillo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE42F2B8254229F500BD77DC;
+			productRefGroup = EE42F2C2254229F500BD77DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE42F2C0254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */,
+				EE42F2D6254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloTests */,
+				EE42F2E1254229F600BD77DC /* Midterm-Nintendo-Jordan-CastilloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE42F2BF254229F500BD77DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42F2D1254229F600BD77DC /* LaunchScreen.storyboard in Resources */,
+				EE42F2CE254229F600BD77DC /* Assets.xcassets in Resources */,
+				EE42F2CC254229F500BD77DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2D5254229F600BD77DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2E0254229F600BD77DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE42F2BD254229F500BD77DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42F2C9254229F500BD77DC /* ViewController.swift in Sources */,
+				EE42F2C5254229F500BD77DC /* AppDelegate.swift in Sources */,
+				EE42F2C7254229F500BD77DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2D3254229F600BD77DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42F2DC254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42F2DE254229F600BD77DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42F2E7254229F600BD77DC /* Midterm_Nintendo_Jordan_CastilloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE42F2D9254229F600BD77DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE42F2C0254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */;
+			targetProxy = EE42F2D8254229F600BD77DC /* PBXContainerItemProxy */;
+		};
+		EE42F2E4254229F600BD77DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE42F2C0254229F500BD77DC /* Midterm-Nintendo-Jordan-Castillo */;
+			targetProxy = EE42F2E3254229F600BD77DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE42F2CA254229F500BD77DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE42F2CB254229F500BD77DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE42F2CF254229F600BD77DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE42F2D0254229F600BD77DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE42F2E9254229F600BD77DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE42F2EA254229F600BD77DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE42F2EC254229F600BD77DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-Castillo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-Castillo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE42F2ED254229F600BD77DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-Castillo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-Castillo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE42F2EF254229F600BD77DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-CastilloTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-CastilloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm-Nintendo-Jordan-Castillo.app/Midterm-Nintendo-Jordan-Castillo";
+			};
+			name = Debug;
+		};
+		EE42F2F0254229F600BD77DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-CastilloTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-CastilloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm-Nintendo-Jordan-Castillo.app/Midterm-Nintendo-Jordan-Castillo";
+			};
+			name = Release;
+		};
+		EE42F2F2254229F600BD77DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-CastilloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-CastilloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Midterm-Nintendo-Jordan-Castillo";
+			};
+			name = Debug;
+		};
+		EE42F2F3254229F600BD77DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M328H5DFKB;
+				INFOPLIST_FILE = "Midterm-Nintendo-Jordan-CastilloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.Midterm-Nintendo-Jordan-CastilloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Midterm-Nintendo-Jordan-Castillo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE42F2BC254229F500BD77DC /* Build configuration list for PBXProject "Midterm-Nintendo-Jordan-Castillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42F2E9254229F600BD77DC /* Debug */,
+				EE42F2EA254229F600BD77DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE42F2EB254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-Castillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42F2EC254229F600BD77DC /* Debug */,
+				EE42F2ED254229F600BD77DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE42F2EE254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-CastilloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42F2EF254229F600BD77DC /* Debug */,
+				EE42F2F0254229F600BD77DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE42F2F1254229F600BD77DC /* Build configuration list for PBXNativeTarget "Midterm-Nintendo-Jordan-CastilloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42F2F2254229F600BD77DC /* Debug */,
+				EE42F2F3254229F600BD77DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE42F2B9254229F500BD77DC /* Project object */;
+}
